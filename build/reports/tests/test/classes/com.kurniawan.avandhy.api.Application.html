@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.kurniawan.avandhy.api.Application</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.kurniawan.avandhy.api.Application</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kurniawan.avandhy.api.html">com.kurniawan.avandhy.api</a> &gt; Application</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.136s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td class="success">0.136s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:03:12.913 [Test worker] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.kurniawan.avandhy.api.Application]
+14:03:12.926 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+14:03:12.935 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+14:03:12.954 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.kurniawan.avandhy.api.Application] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+14:03:12.969 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kurniawan.avandhy.api.Application], using SpringBootContextLoader
+14:03:12.974 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kurniawan.avandhy.api.Application]: class path resource [com/kurniawan/avandhy/api/Application-context.xml] does not exist
+14:03:12.975 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.kurniawan.avandhy.api.Application]: class path resource [com/kurniawan/avandhy/api/ApplicationContext.groovy] does not exist
+14:03:12.975 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.kurniawan.avandhy.api.Application]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:03:12.976 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.kurniawan.avandhy.api.Application]: Application does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:03:13.043 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.kurniawan.avandhy.api.Application]
+14:03:13.123 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/programmer/Data/api/build/classes/groovy/main/com/kurniawan/avandhy/api/Application.class]
+14:03:13.124 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.kurniawan.avandhy.api.Application for test class com.kurniawan.avandhy.api.Application
+14:03:13.244 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.kurniawan.avandhy.api.Application]: using defaults.
+14:03:13.245 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+14:03:13.264 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@e69f6b1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ab5ba3df, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@82f8fe27, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2c820f33, org.springframework.test.context.support.DirtiesContextTestExecutionListener@479d498b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@641bad84, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7870817d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@adb17c02, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@40ee8648, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@46bce4c7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@ad6aa147, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@bfb6a706]
+14:03:13.267 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kurniawan.avandhy.api.Application]
+14:03:13.268 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kurniawan.avandhy.api.Application]
+14:03:13.269 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kurniawan.avandhy.api.Application]
+14:03:13.269 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kurniawan.avandhy.api.Application]
+14:03:13.273 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@6158d25c testClass = Application, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@acc54baf testClass = Application, locations = '{}', classes = '{class com.kurniawan.avandhy.api.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@863f4fa0, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@a3d89b1b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@ea236b1e, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@33b546d], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+14:03:13.274 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.kurniawan.avandhy.api.Application]
+14:03:13.274 [Test worker] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.kurniawan.avandhy.api.Application]
+14:03:13.496 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.4.RELEASE)
+
+2019-05-14 14:03:13.838  INFO 8175 --- [    Test worker] com.kurniawan.avandhy.api.Application    : Starting Application on programmer-KP with PID 8175 (started by programmer in /home/programmer/Data/api)
+2019-05-14 14:03:13.842  INFO 8175 --- [    Test worker] com.kurniawan.avandhy.api.Application    : No active profile set, falling back to default profiles: default
+2019-05-14 14:03:14.051  INFO 8175 --- [    Test worker] com.kurniawan.avandhy.api.Application    : Started Application in 0.546 seconds (JVM running for 2.145)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at May 14, 2019 2:03:14 PM</p>
+</div>
+</div>
+</body>
+</html>
